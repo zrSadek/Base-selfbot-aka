@@ -2,7 +2,7 @@ const {
   Client,
   Collection
 } = require("discord.js-selfbot-v13");
-const fs = require("fs");
+const fs = require("node:fs");
 const client = new Client({
   checkUpdate: false
 });
