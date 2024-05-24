@@ -1,1 +1,60 @@
-const _0x80990=_0x4309;function _0x4309(_0x3d7a4d,_0xd6f57){const _0x2469d6=_0x2469();return _0x4309=function(_0x4309d4,_0x1f653e){_0x4309d4=_0x4309d4-0xb3;let _0x2d3e1e=_0x2469d6[_0x4309d4];return _0x2d3e1e;},_0x4309(_0x3d7a4d,_0xd6f57);}(function(_0x2df6de,_0x3c94e0){const _0x337e8f=_0x4309,_0x4eae81=_0x2df6de();while(!![]){try{const _0x58b0d0=-parseInt(_0x337e8f(0xdb))/0x1*(-parseInt(_0x337e8f(0xda))/0x2)+-parseInt(_0x337e8f(0xb9))/0x3*(-parseInt(_0x337e8f(0xb3))/0x4)+-parseInt(_0x337e8f(0xca))/0x5*(parseInt(_0x337e8f(0xb4))/0x6)+parseInt(_0x337e8f(0xdd))/0x7*(parseInt(_0x337e8f(0xc3))/0x8)+parseInt(_0x337e8f(0xd0))/0x9*(parseInt(_0x337e8f(0xe5))/0xa)+parseInt(_0x337e8f(0xde))/0xb+parseInt(_0x337e8f(0xc9))/0xc*(-parseInt(_0x337e8f(0xbc))/0xd);if(_0x58b0d0===_0x3c94e0)break;else _0x4eae81['push'](_0x4eae81['shift']());}catch(_0x2a42d8){_0x4eae81['push'](_0x4eae81['shift']());}}}(_0x2469,0xaf02b));const {Client,Collection}=require('discord.js-selfbot-v13'),fs=require('fs'),client=new Client({'checkUpdate':![]}),config=require('./config.json'),prefix=config[_0x80990(0xc6)],token=config[_0x80990(0xe1)];function _0x2469(){const _0x2c8804=['get','padStart','./commands/','5648ipRrgx','261IvuTYC','login','3290dxSmdd','11591646fnGxJU','username','ready','token','startsWith','slice','command','4573610eJkWrC','categories','28DBORJh','6PTalmA','Aka\x20$B','member','getSeconds','fetchMember','356787jajLdK','aliases','forEach','264862DbGtyP','guild','setActivity','./handlers/','https://guns.lol/ctjraka\x20','messageCreate','getHours','18472uEEwGq','STREAMING','toString','prefix','length','user','2280IPyGvc','2463815qDFsAe','author','Selfbot\x20co\x20sur\x20','log','toLowerCase','trim','27cKkZHi','content','bot','dev\x20by\x20aka\x20','split','commands','readdirSync'];_0x2469=function(){return _0x2c8804;};return _0x2469();}client['commands']=new Collection(),client[_0x80990(0xba)]=new Collection(),client[_0x80990(0xe6)]=fs[_0x80990(0xd6)](_0x80990(0xd9)),[_0x80990(0xe4)][_0x80990(0xbb)](_0x26795d=>{const _0x51472e=_0x80990;require(_0x51472e(0xbf)+_0x26795d)(client);}),client['on'](_0x80990(0xe0),()=>{const _0x537950=_0x80990;client[_0x537950(0xc8)][_0x537950(0xbe)](_0x537950(0xb5),{'type':_0x537950(0xc4),'url':'https://www.twitch.tv/ctjraka'}),console[_0x537950(0xcd)](_0x537950(0xcc)+client[_0x537950(0xc8)][_0x537950(0xdf)]+'\x20'),console['log'](_0x537950(0xd3)),console['log']('https://github.com/Akalpb\x20'),console[_0x537950(0xcd)](_0x537950(0xc0));}),client['on'](_0x80990(0xc1),async _0x530343=>{const _0x4c2dfc=_0x80990;if(_0x530343[_0x4c2dfc(0xcb)][_0x4c2dfc(0xd2)])return;if(_0x530343[_0x4c2dfc(0xcb)]['id']!=client['user']['id'])return;if(!_0x530343[_0x4c2dfc(0xd1)][_0x4c2dfc(0xe2)](prefix))return;if(!_0x530343[_0x4c2dfc(0xbd)])return;if(!_0x530343[_0x4c2dfc(0xb6)])_0x530343['member']=await _0x530343[_0x4c2dfc(0xbd)][_0x4c2dfc(0xb8)](_0x530343);const _0x15b8b0=_0x530343[_0x4c2dfc(0xd1)][_0x4c2dfc(0xe3)](prefix[_0x4c2dfc(0xc7)])[_0x4c2dfc(0xcf)]()[_0x4c2dfc(0xd4)](/ +/g),_0x2d2fc3=_0x15b8b0['shift']()[_0x4c2dfc(0xce)]();if(_0x2d2fc3[_0x4c2dfc(0xc7)]==0x0)return;let _0x32e68b=client[_0x4c2dfc(0xd5)][_0x4c2dfc(0xd7)](_0x2d2fc3);if(!_0x32e68b)_0x32e68b=client[_0x4c2dfc(0xd5)][_0x4c2dfc(0xd7)](client[_0x4c2dfc(0xba)][_0x4c2dfc(0xd7)](_0x2d2fc3));if(_0x32e68b){_0x32e68b['run'](_0x530343,_0x15b8b0,_0x32e68b,client);const _0x133248=new Date(),_0x2f18ac=_0x133248[_0x4c2dfc(0xc2)]()[_0x4c2dfc(0xc5)]()[_0x4c2dfc(0xd8)](0x2,'0')+':'+_0x133248['getMinutes']()[_0x4c2dfc(0xc5)]()[_0x4c2dfc(0xd8)](0x2,'0')+':'+_0x133248[_0x4c2dfc(0xb7)]()['toString']()[_0x4c2dfc(0xd8)](0x2,'0');console[_0x4c2dfc(0xcd)]('['+_0x2f18ac+']\x20Command\x20run:\x20'+_0x2d2fc3);}}),client[_0x80990(0xdc)](token);
+const {
+  Client,
+  Collection
+} = require("discord.js-selfbot-v13");
+const fs = require("fs");
+const client = new Client({
+  checkUpdate: false
+});
+const config = require("./config.json");
+const prefix = config.prefix;
+const token = config.token;
+client.commands = new Collection();
+client.aliases = new Collection();
+client.categories = fs.readdirSync("./commands/");
+["command"].forEach(handlerFile => {
+  require("./handlers/" + handlerFile)(client);
+});
+client.on("ready", () => {
+  client.user.setActivity("Aka $B", {
+    type: "STREAMING",
+    url: "https://www.twitch.tv/ctjraka"
+  });
+  console.log("Selfbot co sur " + client.user.username + " ");
+  console.log("askip dev by aka la pupute");
+  console.log("https://github.com/Akalpb ");
+  console.log("https://guns.lol/ctjraka ");
+});
+client.on("messageCreate", async message => {
+  if (message.author.bot) {
+    return;
+  }
+  if (message.author.id != client.user.id) {
+    return;
+  }
+  if (!message.content.startsWith(prefix)) {
+    return;
+  }
+  if (!message.guild) {
+    return;
+  }
+  if (!message.member) {
+    message.member = await message.guild.fetchMember(message);
+  }
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const commandName = args.shift().toLowerCase();
+  if (commandName.length == 0) {
+    return;
+  }
+  let command = client.commands.get(commandName);
+  if (!command) {
+    command = client.commands.get(client.aliases.get(commandName));
+  }
+  if (command) {
+    command.run(message, args, command, client);
+    const currentTime = new Date();
+    const timeString = currentTime.getHours().toString().padStart(2, "0") + ":" + currentTime.getMinutes().toString().padStart(2, "0") + ":" + currentTime.getSeconds().toString().padStart(2, "0");
+    console.log("[" + timeString + "] Command run: " + commandName);
+  }
+});
+client.login(token);
